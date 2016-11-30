@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+                <TableRow>
+                    <TextView android:text="Kütüphane Adı:" android:height="60dp" android:textSize="17dp" android:width="150dp"/>
+                    <TextView android:maxLines="4"
+                              android:lines="4"   android:text="Deneme Text" android:paddingLeft="10dp" android:textSize="17dp" android:id="@+id/edkAdi" android:width="200dp"/>
+                </TableRow>
+    <TableRow>
+        <TextView android:text="Şehir:" android:height="60dp" android:textSize="17dp" android:width="150dp"/>
+        <TextView  android:text="Deneme Şehir" android:paddingLeft="10dp" android:textSize="17dp" android:id="@+id/edSehir" android:width="500dp"/>
+    </TableRow>
+    <TableRow>
+    <TextView android:text="Adres:" android:height="60dp" android:textSize="17dp" android:width="150dp"/>
+    <TextView android:maxLines="4"
+              android:lines="4"  android:text="Deneme Adres" android:paddingLeft="10dp" android:textSize="17dp" android:id="@+id/edAdres" android:width="500dp"/>
+</TableRow>
+    <TableRow>
+        <TextView android:text="Telefon Numarası:" android:height="60dp" android:textSize="17dp" android:width="150dp"/>
+        <TextView  android:text="645675544" android:paddingLeft="10dp" android:textSize="17dp" android:id="@+id/edTelNo" android:width="500dp"/>
+    </TableRow>
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Ara" android:id="@+id/btnAra" android:layout_alignParentBottom="true"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnHarita" android:layout_toRightOf="@+id/btnAra" android:layout_alignParentBottom="true" android:text="Haritda Göster"></Button>
+    </RelativeLayout>
+</TableLayout>
